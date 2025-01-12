@@ -1,0 +1,8 @@
+/* App Component Styles */
+.bg-container {
+  background-size: cover;
+  background-color: white;
+  height: 100vh;  /* Full viewport height */
+  width: 100vw;   /* Full viewport width */
+  overflow-x: hidden;  /* Prevent horizontal scrolling */
+}

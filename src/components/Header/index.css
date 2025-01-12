@@ -1,0 +1,95 @@
+.header-container{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.header-location-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+@media screen and (min-width: 768px) {
+    .header-location-container{
+        padding-left: 30px;
+    }  
+  }
+
+.location-name{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2E3742;
+}
+
+.location-sub-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.gps-logo{
+    margin-left: 10px;
+}
+.location-para-mobile{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2E3742;
+    width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+    .location-para-mobile{
+        display: none;
+    }    
+    .price-cart-image{
+        margin-right: 80px;
+        
+    }
+  }
+
+  .location-para-desktop{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #2E3742;
+    width: 250px;
+}
+
+@media screen and (max-width: 767px) {
+    .location-para-desktop{
+        display: none;
+    } 
+    .price-cart-image{
+        margin-right: 15px;
+        cursor: pointer;
+    }
+  }
+
+.gps-logo{
+    width: 17px;
+    
+}  
+
