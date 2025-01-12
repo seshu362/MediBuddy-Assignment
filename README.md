@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Medibuddy Web Page Development
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project focuses on developing a fully responsive web page based on the provided Figma design. The objective is to transform the design mockup into a functional and visually accurate web interface, following best coding practices while ensuring responsiveness across all devices. The project integrates with an API to fetch dynamic content, featuring filtering logic for health check-up packages and lab test bookings. Built using **React**, this project showcases my skills in modern web development and efficient deployment practices.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+1. Run the following command to install the required Node.js packages::
+```bash
+   npm install
+```
+2. Now that you have installed the dependencies, run the following command to start the React development server:
+```bash
+   npm start
+```
+   - This will launch the Medibuddy web page in your default browser, allowing you to view the responsive UI and interact with the dynamic content fetched from the integrated API.
 
-### `npm start`
+## Features of the Medibuddy Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Page Content Fetching**
+- Dynamically fetches page content from a provided API (`https://677f757b0476123f76a68a42.mockapi.io/api/labs/v1/page_config`), which includes configuration for health check-up packages, lab test details, and other relevant data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **Component-Based Architecture**
+- Utilizes reusable components (e.g., header, footer, section components) to maintain consistency and ease of maintenance across the web page.
+- Dynamically renders components based on API data, such as health check-up packages and lab test options.
 
-### `npm test`
+### **Health Check-Up Packages and Lab Test Booking**
+- Displays health check-up packages and lab test booking options, allowing users to explore and filter packages.
+- Implements logic to conditionally render components like "Featured Health Check-up Packages" and "Book Lab Tests" based on API data and user interactions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Responsive Design**
+- The web page is fully responsive, ensuring an optimal user experience across various screen sizes (desktop, tablet, and mobile).
+- Media queries and responsive units are used to ensure the design adjusts fluidly on different devices.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### **Design Accuracy**
+- Follows the Figma design meticulously, ensuring that each component is styled and positioned according to the provided mockup.
+- Regular adjustments are made to the design during development to match the Figma design's accuracy.
